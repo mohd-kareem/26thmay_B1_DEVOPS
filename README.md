@@ -17,9 +17,13 @@ $ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -
  $ sudo apt-get install docker-ce docker-ce-cli containerd.io
   
 
+
+
 # TASK 2
 ### pull ubuntu:20.04 docker image
-$ docker pull ubuntu:20.04
+$ docker pull ubuntu:20.04 
+
+
 
 
 # TASK 3
@@ -35,6 +39,7 @@ $ docker pause nervous_ptolemy
 
 
 
-#TASK 4 
+
+# TASK 4 
 ### get bash shell of that container
 $  docker exec -it nervous_ptolemy /bin/bash
