@@ -1,6 +1,7 @@
 # TASK 1
  ### update apt package
  <$ sudo apt-get update>
+ 
  <$sudo apt-get install \apt-transport-https \ca-certificates \curl \gnupg \lsb-release>
  
  ### add GPG key
