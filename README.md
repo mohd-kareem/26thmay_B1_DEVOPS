@@ -16,16 +16,26 @@ $ docker run -d --name example ubuntu:20.04 sleep 500
 
 $ docker exce -it example bash
 
+# TASK 4
 ### create a user test and give password 'q' in runnuing container example
 
 adduser test
 
 root@ea1040473881:/# adduser test
+
 Adding user `test' ...
+
 Adding new group `test' (1000) ...
+
 Adding new user `test' (1000) with group `test' ...
+
 Creating home directory `/home/test' ...
+
 Copying files from `/etc/skel' ...
+
 New password: 
+
 Retype new password: 
+
 passwd: password updated successfully
+
