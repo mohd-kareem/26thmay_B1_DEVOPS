@@ -1,0 +1,41 @@
+# TASK-1 
+
+All linux task should be done with docker containers
+
+<docker run -it --name kar1 ubuntu:20.04 date>
+Wed Jul  7 15:52:37 UTC 2021
+
+<docker run -it --name kar2 ubuntu:20.04 whoami>
+root
+
+
+# TASK-2
+
+launch 5 nginx webserver from port 3000-3004 with name nginx-container(ex- nginx-1)
+
+<docker run -d -p 3000:80 --name nginx-1 nginx>
+<docker run -d -p 3001:80 --name nginx-2 nginx>
+<docker run -d -p 3002:80 --name nginx-3 nginx>
+<docker run -d -p 3003:80 --name nginx-4 nginx>
+<docker run -d -p 3004:80 --name nginx-5 nginx>
+
+
+# TASK-3 
+
+launch alpine image container and install nginx in it curl the webpage from inside thhe container.
+
+<docker run -d -p 3005:80 --name kareem nginx:stable-alpine>
+docker exec -it kareem sh
+/ # 
+/ #  cd /etc/nginx
+/etc/nginx # ls
+/etc/nginx # cd conf.d
+/etc/nginx/conf.d # cat default.conf
+
+copy root location and enter into it
+
+cd  /usr/share/nginx/html
+/usr/share/nginx/html #apk update
+/usr/share/nginx/html # echo "hello i am kareem">index.html
+/usr/share/nginx/html # curl localhost
+hello i am kareem
