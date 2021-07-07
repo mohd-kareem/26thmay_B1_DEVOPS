@@ -1,0 +1,24 @@
+# TASK
+
+Creqate your owm docker image using alpine as as base image
+
+vim Dockerfile  
+
+... 
+
+FROM alpine
+RUN apk update
+CMD ["/bin/bash","-c","date"] 
+
+...
+
+:wq!
+
+ 
+<docker build . -it cmds>
+Successfully built 9f1d81e0c935
+Successfully tagged cmds:latest
+
+now run the image as
+
+<docker run cmds>
