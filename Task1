@@ -1,0 +1,3 @@
+To Change the Host Name
+$ sudo hostnamectl set-hostname Kareem
+
