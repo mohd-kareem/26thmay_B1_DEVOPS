@@ -1,0 +1,16 @@
+#TASK1
+
+ADD THE USER 
+$ sudo useradd -m kar
+
+
+#TASK2
+
+DELETE THE USER 
+$ sudo userdel -r kar
+
+
+#TASK3
+
+ADD USER WITH SPECIFIC SHELL
+$ sudo useradd -m -s /usr/bin/bash kareem
