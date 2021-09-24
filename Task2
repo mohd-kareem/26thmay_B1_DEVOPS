@@ -1,0 +1,6 @@
+FORMATTING 
+mkfs.xfs /dev
+
+For Moulting 
+mount /dev/xvdf1 /mnt/new
+
