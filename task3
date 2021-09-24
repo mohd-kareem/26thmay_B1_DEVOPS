@@ -1,0 +1,8 @@
+Create & Add 3 users to 'LnB' group
+$ sudo useradd U1
+$ sudo useradd U2
+$ sudo useradd U3
+
+$ sudo useradd -a -G LnB U1
+$ sudo useradd -a -G LnB U2
+$ sudo useradd -a -G LnB U3
