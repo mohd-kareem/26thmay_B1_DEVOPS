@@ -1,0 +1,4 @@
+To create a multiple directoris through single mkdir command
+$ cd Desktop
+/Desktop$ mkdir -p A/{B/{D/K/N/LnB,E/{K/N/LnB},J/M/LnB},F/{J/M/LnB,I/N/LnB}},C/{G/{I/N/LnB},H/L/M/LnB}}
+/Desktop$ ls
