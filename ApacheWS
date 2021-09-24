@@ -1,0 +1,10 @@
+INSTALL APACHE WEB SERVER'
+ $ sudo apt install apache2
+ 
+ CHANGING ROOT DIR
+$ cd /var/ww/html
+ls
+cd /etc/apache2/sites-available
+$ vim 000-defualt.conf
+change the document root  to /mnt/new
+systemctl restart apache2
