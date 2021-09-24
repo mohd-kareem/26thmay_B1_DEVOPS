@@ -1,0 +1,23 @@
+To Create a dir 'new' at /mnt
+
+$ cd /mnt
+$ mkdir new
+$ ls
+
+Create a volume using AWS EBS and attach to your ubuntu instance.
+
+$ fdisk -1
+
+Create partition and mount partition to the location /mnt/new.
+$ fdisk /dev
+
+type n
+for Partition type
+
+type p 
+select partition
+
+type w
+alter the partition table
+
+
